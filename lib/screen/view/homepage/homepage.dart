@@ -403,8 +403,7 @@ class _HomepageState extends State<Homepage> {
                   (e) => ListTile(
                       leading: CircleAvatar(
                         radius: 22,
-                        backgroundImage: NetworkImage(
-                            "https://avatars.githubusercontent.com/u/132036737?v=4"),
+                        backgroundImage: NetworkImage(e['img']),
                       ),
                       title: Text(
                         e['name'],
